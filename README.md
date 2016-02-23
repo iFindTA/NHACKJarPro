@@ -17,7 +17,9 @@ SDK文件包括 ackSDK.jar。 请前往“[资源下载页](https://github.com/i
 
 [1] 在Eclipse中建立你的工程。
 
-[2] 将SDK文件中包含的ackSDK.jar文件添加到你所建的工程中（如下图所示，建立了一个名为AckSdkDemo 的工程，并把以上文件添加到libs文件夹下）。
+[2] 将SDK文件中包含的ackSDK.jar文件添加到你所建的工程中（如下图所示，建立了一个名为AckSdkDemo 的工程，并把以上文件添加到libs文件夹下。
+
+
 ![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_3.jpg)
 
 [3] 开发者需要在工程中添加jar
