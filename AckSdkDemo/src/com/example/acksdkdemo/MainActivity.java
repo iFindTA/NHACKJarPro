@@ -2,7 +2,8 @@ package com.example.acksdkdemo;
 
 import org.apache.http.Header;
 import org.json.JSONObject;
-import com.gongshidai.sdk.LaXiongLicaibao;
+
+import com.gongshidai.sdk.Ack;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -35,7 +36,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				LaXiongLicaibao.init(MainActivity.this, "4FCUND77NX2C4S"); // 初始化Lcb
+				Ack.init(MainActivity.this, "4FCUND77NX2C4S"); // 初始化Lcb
 			}
 		});
 
@@ -75,7 +76,7 @@ public class MainActivity extends Activity {
 	}
 
 	protected void doLcbRegiste() {
-		LaXiongLicaibao.register(mPhoneNum, new com.loopj.android.https.JsonHttpResponseHandler() {
+		Ack.register(mPhoneNum, new com.loopj.android.https.JsonHttpResponseHandler() {
 
 			@Override
 			public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
@@ -91,7 +92,7 @@ public class MainActivity extends Activity {
 	}
 
 	protected void doLcbTruename() {
-		LaXiongLicaibao.realname(mPhoneNum, mName, mIdc, new com.loopj.android.https.JsonHttpResponseHandler() {
+		Ack.realname(mPhoneNum, mName, mIdc, new com.loopj.android.https.JsonHttpResponseHandler() {
 			@Override
 			public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 				super.onSuccess(statusCode, headers, response);
@@ -105,7 +106,7 @@ public class MainActivity extends Activity {
 	}
 
 	private void doLcbInvestSuccess() {
-		LaXiongLicaibao.investment(mPhoneNum, mInvestNum, new com.loopj.android.https.JsonHttpResponseHandler() {
+		Ack.investment(mPhoneNum, mInvestNum, new com.loopj.android.https.JsonHttpResponseHandler() {
 			@Override
 			public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 				super.onSuccess(statusCode, headers, response);

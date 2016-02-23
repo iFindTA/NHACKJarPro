@@ -11,16 +11,16 @@ ack jar for android
 
 2.下载爱财客终端SDK文件
 
-SDK文件包括 ackSDK.jar。 请前往“[资源下载页](https://github.com/iFindTA/NHACKJarPro)“”下载最新SDK包
+SDK文件包括 ack-1.0.jar。 请前往“[资源下载页](https://github.com/iFindTA/NHACKJarPro)“”下载最新SDK包
 
 3.搭建开发环境
 
 [1] 在Eclipse中建立你的工程。
 
-[2] 将SDK文件中包含的ackSDK.jar文件添加到你所建的工程中（如下图所示，建立了一个名为AckSdkDemo 的工程，并把以上文件添加到libs文件夹下。
+[2] 将SDK文件中包含的ack-1.0.jar文件添加到你所建的工程中（如下图所示，建立了一个名为AckSdkDemo 的工程，并把以上文件添加到libs文件夹下。
 
 
-![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_3.jpg)
+![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_0.jpg)
 
 [3] 开发者需要在工程中添加jar
 如果再android studio 中使用该sdk
@@ -29,17 +29,17 @@ SDK文件包括 ackSDK.jar。 请前往“[资源下载页](https://github.com/i
 
 [1] 现在，你的程序要实现用户注册、实名、投资等动作记录同步到爱财客服务端需要调用如下列方法： 
 应用启动:
-![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_5.jpg)
+![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_1.jpg)
 
 用户注册： 
-![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_0.jpg)
+![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_2.jpg)
 
 实名认证： 
-![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_1.jpg)
+![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_3.jpg)
 
 用户投资：
 
-![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_2.jpg)
+![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_4.jpg)
 
 
 
