@@ -41,7 +41,7 @@ SDK文件包括 ack-1.0.jar。 请前往“[资源下载页](https://github.com/
 
 ![image](https://raw.githubusercontent.com/iFindTA/screenshots/master/ack_android_4.jpg)
 
-错误code:
+#### Response Code:
 
 |   code   |   description   |
 |----------|-----------------|
