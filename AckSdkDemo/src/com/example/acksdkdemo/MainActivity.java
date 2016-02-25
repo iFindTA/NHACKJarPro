@@ -28,6 +28,7 @@ public class MainActivity extends Activity {
 		Button registe = (Button) findViewById(R.id.registe);
 		Button realname = (Button) findViewById(R.id.realname);
 		Button invest = (Button) findViewById(R.id.invest);
+		
 
 		/**
 		 *  用户启动应用时，下载完成回调
@@ -36,7 +37,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View arg0) {
-				Ack.init(MainActivity.this, "4FCUND77NX2C4S"); // 初始化Lcb
+				Ack.init(MainActivity.this, "appkey"); // 初始化ack
 			}
 		});
 
